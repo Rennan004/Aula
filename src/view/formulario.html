@@ -10,30 +10,39 @@
 <body>
     
     <div class="container">
-        <form>
+        
+        <h1>Olá, me diga seu nome e o animal que você mais gosta!</h1>
+
+
+       <div class="box">
+           <div class="row justify-content-center">
+        <div class="col-12 col-md-12 col-sm-12">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Digite seu nome</label>
+                    <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="">
+    
+        
+          </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Endereço de email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Select de exemplo</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+              <label for="exampleFormControlSelect1">Selecione o animal que você mais gosta</label>
+              <select class="form-control " id="exampleFormControlSelect1">
+                <option>Selecione...</option>
+                <option value="1">Cachorro</option>
+                <option value="2">Gato</option>
+                <option value="3">Peixe</option>
               </select>
+            </div>  
+            <div class="row justify-content-end">
+           
+                    <button class="btn btn-primary" type="button">Enviar</button>
+               
             </div>
-            <div class="form-group">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button class="btn btn-primary" type="button">Text</button>
           </form>
-    </div>
+        </div>
+       </div>
+        </div>
+    </div>  
 
 
     <script src="js/jquery-3.6.0.js"></script>
