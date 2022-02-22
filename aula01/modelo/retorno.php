@@ -6,7 +6,7 @@ $ANIMAL = $_REQUEST['animal'];
 
 
 if(empty($NOME)){
-    $dado = array(
+    $dados = array(
         "tipo" => 'error',
         "mesagem" => 'Existem campos obrigatórios não preechidos'
     );
