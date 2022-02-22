@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,40 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div class="container">
-        
-        <h1>Olá, me diga seu nome e o animal que você mais gosta!</h1>
 
+        <h1 class="text-center">Diga-me seu nome e seu animal preferido</h1>
 
-       <div class="box">
-           <div class="row justify-content-center">
-        <div class="col-12 col-md-12 col-sm-12">
-            <form>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Digite seu nome</label>
-                    <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="">
-    
-        
-          </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Selecione o animal que você mais gosta</label>
-              <select class="form-control " id="exampleFormControlSelect1">
-                <option>Selecione...</option>
-                <option value="1">Cachorro</option>
-                <option value="2">Gato</option>
-                <option value="3">Peixe</option>
-              </select>
-            </div>  
-            <div class="row justify-content-end">
-           
-                    <button class="btn btn-primary" type="button">Enviar</button>
-               
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md4">
+                    <form id="form">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Seu Nome</label>
+                            <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="animal" class="form-label">Qual o seu animal preferido?</label>
+                            <select class="form-select" id="animal" aria-label="Default select example">
+                      <option selected>Selecione um</option>
+                      <option value="1">Chachorro</option>
+                      <option value="2">Gato</option>
+                      <option value="3">Peixe</option>
+                    </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-send">Enviar</button>
+                    </form>
+                </div>
             </div>
-          </form>
         </div>
-       </div>
-        </div>
-    </div>  
 
-
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="../controller/function.js"></script>
 </body>
+
 </html>
