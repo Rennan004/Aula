@@ -27,6 +27,11 @@ if(empty($NOME)){
           "mensagem" => "Olá, $NOME, seu animal preferido é o peixe"
         );
         break;
+        case '4' : $dados = array(
+            "tipo" => "tartaruga.jpg",
+            "mensagem" => "Olá, $NOME, seu animal preferido é uma tartaruga"
+          );
+          break;
     }
 }
 

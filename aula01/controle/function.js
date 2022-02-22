@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('.btn-send').click(function(e){
+$(document).ready(function() {
+    $('.btn-send').click(function(e) {
         e.preventDefault()
 
         alert('Você clicou no botão!!!')
