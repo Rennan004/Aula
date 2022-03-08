@@ -2,10 +2,10 @@
 
 
 $NOME = $_REQUEST['nome'];
-$NASCIMENTO = $_REQUEST['nascimento'];
+$NASCIMENTO = $_REQUEST[date'nascimento'];
 $BEBIDA = $_REQUEST['bebida'];
 
-$DATA_ATUAL = 2022;
+$DATA_ATUAL =  date("2022"); 
 
 
 $IDADE = $DATA_ATUAL - $NASCIMENTO;
