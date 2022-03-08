@@ -14,7 +14,7 @@ $(document).ready(function() {
             url: '../modelo/retorno.php',
             success: function(dados) {
                 $('#retorno').append(`
-                <div class="col-12 col-sm-8 col-md-6">
+                <div class="col-12 col-sm-8 col-md-4">
                 <div class="alert-primary">
                     <h1 class="text-white text-center">
                        ${dados.mensagem}
